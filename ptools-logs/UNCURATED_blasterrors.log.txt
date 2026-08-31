@@ -1,0 +1,77 @@
+BLAST hits found for RIBOSYLNICOTINAMIDE-KINASE-RXN
+No BLAST hits found for HOMOCYSMETB12-RXN
+No BLAST hits found for RXN-22438
+BLAST hits found for DIHYDROFOLATEREDUCT-RXN
+BLAST hits found for RXN-14569
+No BLAST hits found for RXN0-366
+No BLAST hits found for RXN-22700
+No BLAST hits found for RXN-22699
+No BLAST hits found for RXN-20757
+No BLAST hits found for RXN-20756
+No BLAST hits found for RXN-20755
+No BLAST hits found for RXN-18709
+No BLAST hits found for RXN-18708
+No BLAST hits found for RXN0-5144
+No BLAST hits found for RXN0-7081
+No BLAST hits found for RXN0-703
+BLAST hits found for RXN0-704
+BLAST hits found for RXN-1623
+No BLAST hits found for P-PANTOCYSLIG-RXN
+No BLAST hits found for P-PANTOCYSDECARB-RXN
+No BLAST hits found for THYMIDYLATESYN-RXN
+BLAST hits found for RXN0-6484
+BLAST hits found for RXN-24139
+No BLAST hits found for RXN0-949
+No BLAST hits found for ACETALD-DEHYDROG-RXN
+No BLAST hits found for RXN-15513
+BLAST hits found for F16BDEPHOS-RXN
+No BLAST hits found for PEPSYNTH-RXN
+BLAST hits found for 6PFRUCTPHOS-RXN
+BLAST hits found for GAPOXNPHOSPHN-RXN
+No BLAST hits found for RXN-13031
+No BLAST hits found for RXN-13032
+BLAST hits found for XANPRIBOSYLTRAN-RXN
+BLAST hits found for GDPKIN-RXN
+BLAST hits found for GMP-SYN-GLUT-RXN
+No BLAST hits found for IMP-DEHYDROG-RXN
+No BLAST hits found for ADDALT-RXN
+No BLAST hits found for ADENODEAMIN-RXN
+BLAST hits found for CDPKIN-RXN
+No BLAST hits found for 4.3.1.17-RXN
+BLAST hits found for UDPKIN-RXN
+No BLAST hits found for RXN-10035
+No BLAST hits found for RXN-24136
+BLAST hits found for PSEUDOURIDINE-KINASE-RXN
+No sequences retrieved for PHOSPHO-DETHIO-RXN
+BLAST hits found for GDPKIN-RXN
+BLAST hits found for GMP-SYN-GLUT-RXN
+No BLAST hits found for IMP-DEHYDROG-RXN
+No BLAST hits found for RXN-13031
+BLAST hits found for RXN-13032
+BLAST hits found for PSEUDOURIDINE-KINASE-RXN
+No BLAST hits found for HOMOCYSMETB12-RXN
+No BLAST hits found for RXN-22438
+BLAST hits found for DIHYDROFOLATEREDUCT-RXN
+No BLAST hits found for P-PANTOCYSLIG-RXN
+No BLAST hits found for P-PANTOCYSDECARB-RXN
+No BLAST hits found for ADDALT-RXN
+BLAST hits found for RXN-1623
+No BLAST hits found for 4.3.1.17-RXN
+No BLAST hits found for ACETALD-DEHYDROG-RXN
+No BLAST hits found for RXN0-366
+No BLAST hits found for ADENODEAMIN-RXN
+BLAST hits found for UDPKIN-RXN
+No BLAST hits found for RXN-15513
+BLAST hits found for F16BDEPHOS-RXN
+No BLAST hits found for PEPSYNTH-RXN
+BLAST hits found for 6PFRUCTPHOS-RXN
+BLAST hits found for GAPOXNPHOSPHN-RXN
+No sequences retrieved for PHOSPHO-DETHIO-RXN
+BLAST hits found for CDPKIN-RXN
+No BLAST hits found for RXN0-7115
+BLAST hits found for RXN-14569
+No BLAST hits found for RXN-10035
+BLAST hits found for RXN0-949
+BLAST hits found for RIBOSYLNICOTINAMIDE-KINASE-RXN
+No BLAST hits found for THYMIDYLATESYN-RXN
+BLAST hits found for XANPRIBOSYLTRAN-RXN

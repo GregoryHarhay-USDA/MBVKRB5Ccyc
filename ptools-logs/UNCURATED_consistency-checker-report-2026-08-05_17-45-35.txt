@@ -1,0 +1,141 @@
+Searched 8093 frames in KB and found 0 deleted frames
+
+=====Checking all inverse links====
+
+[Checking inverses under class  CCO]
+[Checking inverses under class  Cell-Types]
+[Checking inverses under class  Chemicals]
+[Checking inverses under class  Collections]
+[Checking inverses under class  Compound-Mixtures]
+[Checking inverses under class  Databases]
+[Checking inverses under class  EC-BOOKKEEPING]
+[Checking inverses under class  Enzymatic-Reactions]
+[Checking inverses under class  Evidence]
+[Checking inverses under class  Gene-Ontology-Terms]
+[Checking inverses under class  Generalized-Reactions]
+[Checking inverses under class  Growth-Observations]
+[Checking inverses under class  Notes]
+[Checking inverses under class  Organisms]
+[Checking inverses under class  Organizations]
+[Checking inverses under class  PGDB-Metadata]
+[Checking inverses under class  People]
+[Checking inverses under class  Polymer-Segments]
+[Checking inverses under class  Protein-Features]
+[Checking inverses under class  Pseudo-Products]
+[Checking inverses under class  Publications]
+[Checking inverses under class  Regulation]
+
+===== Checking and removing any values from PATHWAY-LINKS that point to nonexistent frames ====
+
+
+===== Checking and removing any reactions from PRIMARIES slot that are no longer in the pathway ====
+
+
+===== Checking modified protein links to eliminate nonexistent frames ====
+
+
+===== Cross-referencing compounds and reactions ====
+
+
+==== Calculating sub and super pathways ====
+
+===== Finding missing sub pathway links ====
+
+
+==== Checking for missing sub pathway links ====
+
+===== Verify genes that lack accession numbers or have duplicates ====
+
+
+::::::::::::::::::::    Reporting on Accession Slot ACCESSION-1    ::::::::::::::::::::
+
+
+0 genes lack ACCESSION-1 accession numbers
+
+
+==Done checking all the links==
+
+==== Checking pathways for duplicate reactions in REACTION-LIST slot ====
+
+== Done checking pathways for duplicate reactions ==
+
+==== Verifying replicon components and positions ====
+[Sorting replicon GEN-EL521035]
+
+== Done verifying replicon components ==
+
+
+===== Validating Gene Ontology (GO) Terms =====
+
+
+== Done validating GO terms ==
+
+===== Changing compound name strings to frame IDs in a variety of slots =====
+
+[Checking class Enzymatic-Reactions]
+[Checking class Compounds]
+[Checking class Proteins]
+[Checking class Reactions]
+[Checking class Pathways]
+[Checking class Enzymatic-Reactions]
+
+== Done changing compound name strings to compound frame IDs ==
+
+===== Checking pathway predecessors/reactions/subs ====
+
+
+==== Checking SuperPathways =====
+
+
+===== Removing newlines from names ====
+
+
+===== Clearing read-only computed slot values ====
+
+
+===== Clearing NILs from slots where they don't belong ====
+
+
+===== Checking for reactions with duplicated substrates that should be converted to use coefficients ====
+
+
+==== Deleting frames that have TEMPORARY-FRAME in their ID ====
+
+
+== Done running all the Misc automatic checks ==
+
+===== Classifying modified proteins as such ====
+
+
+===== Updating molecular weights of polypeptides from amino acid sequences ====
+
+Updated 0 protein molecular weights from sequence
+
+== Done with protein updates  ==
+
+===== Checking compound structures for redundancy =====
+
+Checking Compound structures for redundant bonds
+
+== Done checking compound structure redundancies ==
+
+==== Computing overall statistics for database mbvkrb5cyc ====
+
+ Recomputed statistics are as follows:
+(PROTEIN-FEATURES 0 TRANSCRIPTIONAL-REGULATORY-INTERACTION 0
+ PHENOTYPE-MICROARRAY-DATASETS 0 NUM-GO-TERMS 42
+ GENE-ESSENTIALITY-DATASETS 0 GENES-WITH-GENE-ESSENTIALITY-DATA NIL
+ BROWSABLE-GENOME-P T PHANTOM-ETC-NUMBER 0 PSEUDOGENE-NUMBER 21
+ ENZYMATIC-REACTION-NUMBER 371 CITATION-COUNT 853 GENOME-LENGTH 1072756
+ MAPPED-GENE-NUMBER 931 UN-MAPPED-GENE-NUMBER 0 PROTEIN-GENE-NUMBER 867
+ RNA-GENE-NUMBER 43 ORF-GENE-NUMBER 212 REACTION-NUMBER 409
+ NO-EC-REACTION-NUMBER 135 ORGANISM-REACTION-NUMBER 409
+ TRANSPORT-REACTION-NUMBER 10 POLYPEPTIDE-NUMBER 867 COMPLEX-NUMBER 27
+ ENZYME-NUMBER 181 TRANSPORTER-NUMBER 47 CPD-NUMBER 339
+ TOTAL-GENE-NUMBER 931 OPERON-NUMBER 623 TRNA-NUMBER 34 LAST-TIME-STAMP
+ 05-Aug-2026  17:45:41)
+
+==== Done computing statistics for database mbvkrb5cyc ====
+Searched 8093 frames in KB and found 0 deleted frames
+The report from this consistency checker run can be found at
+/home/greg/ptools-local/pgdbs/registry/mbvkrb5cyc/1.0.1.1/reports/consistency-checker-report-2026-08-05_17-45-35.txt

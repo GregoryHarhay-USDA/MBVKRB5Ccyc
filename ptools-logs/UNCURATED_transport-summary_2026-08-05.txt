@@ -1,0 +1,74 @@
+Unreviewed CPLX2SBR-18         No substrate             ATP       
+           abc transporter
+           No reaction
+Unreviewed CPLX2SBR-14         No substrate             ATP       
+           abc transporter
+           No reaction
+Unreviewed CPLX2SBR-19         No substrate             ATP       
+           abc transporter
+           No reaction
+Unreviewed CPLX2SBR-12         No substrate             ATP       
+           abc transporter
+           No reaction
+Unreviewed R6879_000573-MONOMER    No substrate             UNKNOWN   
+           aec family transporter
+           No reaction
+Unreviewed R6879_000300-MONOMER    No substrate             SECONDARY 
+           apc family permease
+           No reaction
+Unreviewed R6879_000764-MONOMER    No substrate             UNKNOWN   
+           zip family metal transporter
+           No reaction
+Unreviewed CPLX2SBR-11         No substrate             ATP       
+           abc transporter
+           No reaction
+Unreviewed CPLX2SBR-24         No substrate             PTS       
+           pts sugar transporter
+           No reaction
+Unreviewed CPLX2SBR-16         No substrate             ATP       
+           abc transporter
+           No reaction
+Unreviewed CPLX2SBR-21         No substrate             ATP       
+           abc transporter
+           No reaction
+Unreviewed R6879_000784-MONOMER    No substrate             SECONDARY 
+           apc family permease
+           No reaction
+Unreviewed R6879_000602-MONOMER    No substrate             UNKNOWN   
+           energy-coupling factor transporter transmembrane component t
+           No reaction
+Unreviewed R6879_000777-MONOMER    No substrate             SECONDARY 
+           mfs transporter
+           No reaction
+Unreviewed R6879_000580-MONOMER    No substrate             SECONDARY 
+           mfs transporter
+           No reaction
+Unreviewed CPLX2SBR-10         No substrate             ATP       
+           abc transporter
+           No reaction
+Unreviewed R6879_000475-MONOMER    No substrate             UNKNOWN   
+           pq-loop domain-containing transporter
+           No reaction
+Unreviewed CPLX2SBR-20         No substrate             ATP       
+           abc transporter
+           No reaction
+Unreviewed CPLX2SBR-15         No substrate             ATP       
+           abc transporter
+           No reaction
+Unreviewed CPLX2SBR-22         No substrate             ATP       
+           abc transporter
+           No reaction
+Unreviewed R6879_000030-MONOMER    No substrate             UNKNOWN   
+           pq-loop domain-containing transporter
+           No reaction
+Unreviewed CPLX2SBR-13         No substrate             ATP       
+           abc transporter
+           No reaction
+Unreviewed CPLX2SBR-17         No substrate             ATP       
+           abc transporter
+           No reaction
+Unreviewed R6879_000266-MONOMER    No substrate             SECONDARY 
+           dicarboxylate/amino acid:cation symporter
+           No reaction
+
+
