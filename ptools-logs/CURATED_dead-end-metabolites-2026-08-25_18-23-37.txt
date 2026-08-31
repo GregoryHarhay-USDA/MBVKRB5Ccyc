@@ -1,0 +1,107 @@
+Dead-end metabolite report for MBVKRB5C on 2026-08-25_18-23-37
+
+Parameters: (SMALL-MOLS-ONLY? NIL PATHWAYS-ONLY? NIL INCLUDE-COFACTORS?
+             NIL IGNORE-UNKNOWN-DIRECTION? NIL COMPARTMENT CCO-CYTOSOL)
+
+Definition: Dead-end metabolites (DEMs) are metabolites that are either only consumed, or only produced, 
+by the reactions within a given cellular compartment, including transport reactions.  Although some
+DEMs are biologically accurate, many DEMs aid in identifying incomplete or incorrect curation of a PGDB.
+
+
+Dead-end metabolite reaction reactants that are not products of any reaction:
+
+4-P-PANTOTHENATE                                            (R)-4'-phosphopantothenate
+NICOTINAMIDE_RIBOSE                                         1-(beta-D ribofuranosyl)nicotinamide
+DEOXYCYTIDINE                                               2'-deoxycytidine
+CPD-3762                                                    5-amino-4-imidazolecarboxyamide
+3-5-ADP                                                     adenosine 3',5'-bisphosphate
+CPD-8963                                                    chlorpyrifos
+CPD-302                                                     D-aspartate
+D-TRYPTOPHAN                                                D-tryptophan
+D-TYROSINE                                                  D-tyrosine
+DIMETHYLARSINOUS-ACID                                       dimethylarsinous acid
+OXYGEN-MOLECULE                                             dioxygen
+GLUTATHIONE                                                 glutathione
+HCO3                                                        hydrogen carbonate
+ARG                                                         L-arginine
+L-ASCORBATE-6-PHOSPHATE                                     L-ascorbate 6-phosphate
+L-ASPARTATE                                                 L-aspartate
+GLN                                                         L-glutamine
+HIS                                                         L-histidine
+HOMO-CYS                                                    L-homocysteine
+ILE                                                         L-isoleucine
+LEU                                                         L-leucine
+LYS                                                         L-lysine
+PHE                                                         L-phenylalanine
+PRO                                                         L-proline
+THR                                                         L-threonine
+TRP                                                         L-tryptophan
+TYR                                                         L-tyrosine
+VAL                                                         L-valine
+CPD-8973                                                    methyl parathion
+CPD0-1147                                                   methyl red
+NIACINAMIDE                                                 nicotinamide
+PARAOXON                                                    paraoxon
+PARATHION                                                   parathion
+CPD-497                                                     pseudouridine
+5-METHYLTHIOADENOSINE                                       S-methyl-5'-thioadenosine
+SEROTONIN                                                   serotonin
+CPD-13014                                                   tributyrin
+
+Dead-end metabolite reaction products that are not reactants of any reaction:
+
+CPD-26479                                                   (D-aspartyl)adenylate
+CPD-26481                                                   (D-tryptophanyl)adenylate
+CPD-26482                                                   (D-tyrosyl)adenylate
+CPD-18588                                                   (L-alanyl)adenylate
+CPD-21008                                                   (L-arginyl)adenylate
+CPD-22724                                                   (L-asparaginyl)adenylate
+CPD0-915                                                    (L-aspartyl)adenylate
+CPD-12085                                                   (L-cysteinyl)adenylate
+CPD-26474                                                   (L-glutaminyl)adenylate
+CPD-20105                                                   (L-glutamyl)adenylate
+CPD-26469                                                   (L-histidyl)adenylate
+CPD-26473                                                   (L-isoleucyl)adenylate
+CPD-26470                                                   (L-leucyl)adenylate
+CPD-24910                                                   (L-lysyl)adenylate
+CPD-26472                                                   (L-methionyl)adenylate
+CPD-26471                                                   (L-phenylalanyl)adenylate
+CPD-20571                                                   (L-prolyl)adenylate
+SERYL-AMP                                                   (L-seryl)adenylate
+CPD-9994                                                    (L-threonyl)adenylate
+CPD-21003                                                   (L-tryptophanyl)adenylate
+CPD-25513                                                   (L-tryrosyl)adenylate
+CPD-25317                                                   (L-valyl)adenylate
+CPD0-2472                                                   (R)-NADHX
+CPD-14133                                                   (R)-NADPHX
+CPD-653                                                     (S)-NADHX
+CPD0-2474                                                   (S)-NADPHX
+CPD-13040                                                   1,2-dibutyrin
+CPD-18085                                                   1,2-dihydro-beta-NADP
+CPD-13851                                                   2-hydroxy-dATP
+CPD-16801                                                   3,5,6-trichloropyridine-2-ol
+P-NITROPHENOL                                               4-nitrophenol
+CH33ADO                                                     5'-deoxyadenosine
+AICAR                                                       5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide
+5-HYDROXY-CTP                                               5-hydroxy-CTP
+8-Oxo-dGTP                                                  8-oxo-dGTP
+CPD-12366                                                   8-oxo-GTP
+MONOMER0-4342                                               a [prolipoprotein]-S-1,2-diacyl-sn-glyceryl-L-cysteine
+CPD-13524                                                   all-trans-retinol
+ANTHRANILATE                                                anthranilate
+BUTYRIC_ACID                                                butanoate
+DIETHYLPHOSPHATE                                            diethylphosphate
+CPD-24324                                                   dimethylarsino-glutathione
+CPD-8974                                                    dimethylthiophosphate
+CPD-24554                                                   dZDP
+FE+3                                                        Fe3+
+CPD0-2461                                                   isoguanine
+CPD-8990                                                    L-methionine-(R)-S-oxide
+CPD-8989                                                    L-methionine-(S)-S-oxide
+CPD-24323                                                   monomethylarsino-diglutathione
+CPD0-1148                                                   N,N-dimethyl-1,4-phenylenediamine
+OH                                                          OH-
+S-HYDROXYMETHYLGLUTATHIONE                                  S-(hydroxymethyl)glutathione
+ADENOSYL-HOMO-CYS                                           S-adenosyl-L-homocysteine
+CPD-444                                                     S-methyl-5-thio-alpha-D-ribose 1-phosphate
+SN-GLYCEROL-1-PHOSPHATE                                     sn-glycerol 1-phosphate

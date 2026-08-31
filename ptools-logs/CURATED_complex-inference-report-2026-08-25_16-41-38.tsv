@@ -1,0 +1,249 @@
+##	Complex Inference Report: The results of computationally predicting protein complexes.
+##	
+##	For MBVKRB5C version 1.0.0  'Mycoplasmopsis bovis KRB5'  on Tue Aug 25, 2026
+##	
+##	
+##	
+####	Summary Statistics
+##	
+CPLX-COUNT-TOTAL-INF	Total count of complexes inferred and newly created	0
+CPLX-COUNT-RXN-BASED	Complexes inferred, created by SHARED REACTIONS	0
+CPLX-COUNT-HYBRID	Complexes created by SHARED REACTIONS and augmented by NAME STRING ANALYSIS	0
+CPLX-COUNT-NAME-BASED	Complexes inferred, created by NAME STRING ANALYSIS	0
+CPLX-COUNT-PTS	Complexes created by PTS TRANSPORTER ANALYSIS	0
+CPLX-COUNT-ABC	Complexes created by ABC TRANSPORTER ANALYSIS	0
+CPLX-COUNT-PRE-EXISTING	Complexes that pre-existed in the PGDB	30
+PP-COUNT-OF-INF-CPLXS	Total count of polypeptides (monomers) in the inferred complexes	0
+PP-LONELY	Polypeptides containing subunit-related words, but with no matching sibling subunits	10
+PP-NOT-RECOGNIZED	Unique polypeptides, NOT recognized as subunit candidates	766
+PP-INPUT-COUNT	Polypeptide count of the input to complex-inference	785
+##	
+####	Complexes created, inferred by SHARED REACTIONS
+##	
+##	This first mechanism for inference of protein complexes focuses on multiple polypeptides that
+##	catalyze a common reaction.  A complex is inferred for each set of subunits that catalyze the
+##	same reaction(s), contain subunit-related words in their names, and whose genes are near one
+##	another in the genome. After the complex inference, the reactions are marked as catalyzed
+##	by the complexes instead of by the polypeptides.
+##	
+##	
+####	Complexes created by SHARED REACTIONS and augmented by NAME STRING ANALYSIS
+##	
+##	After complexes were created by shared reactions, sometimes the inference
+##	by name analysis may also find matches with one of the previously created complexes,
+##	given that all polypeptide name strings are analyzed, even of those polypeptides that are
+##	already in a complex.  In such a match, additional polypeptides will be added to the complex
+##	that was based merely on shared reactions, instead of creating a separate but partial complex.
+##	
+##	
+####	Complexes created, inferred by NAME STRING ANALYSIS
+##	
+##	This third mechanism for inference of protein complexes analyzes shared subunit-related
+##	words in the names of several polypeptides. First, polypeptides are grouped together by
+##	shared 'core strings.' A core string aims to capture the core function of a polypeptide
+##	and is derived from a polypeptide name by removing subunit-related words and other
+##	extraneous markup (for example, the core string for 'tryptophan synthase, subunit alpha'
+##	is simply 'tryptophan synthase'). Next, a complex is created for each such a polypeptide
+##	grouping unless all polypeptides have identical names.
+##	
+##	
+####	Complexes created, inferred by PTS TRANSPORTER ANALYSIS
+##	
+##	This specialized protein complex inference mechanism searches for polypeptides whose
+##	name contains indicators of PTS transport function ('PTS' or 'PEP-driven' along
+##	with 'transport' or 'PTS system)', and of being a subunit ('subunit' or 'complex').
+##	These are grouped by substrate specificity as indicated in the name, with one group
+##	for those that specify no substrate or a generic substrate.
+##	Groups are split into subgroups whose components are either on the same operon
+##	or within 10 genes of another component in the subgroup. A complex is created for the
+##	polypeptides in the subgroup if their names cover the II 'A', 'B', and 'C'
+##	and optionally the 'D' proteins/domains of a PTS transporter
+##	(e.g., if one name contains 'IIAB' and one name contains 'IIC').
+##	Multiple 'A's, 'B's, 'C's and 'D's in a subgroup are pruned arbitrarily.
+##	
+##	
+####	Complexes created, inferred by ABC TRANSPORTER ANALYSIS
+##	
+##	This specialized protein complex inference mechanism analyzes the subunits
+##	in one operon, of which some subunits contain the substring 'ABC transport'.
+##	Other subunits in the operon are added to the complex, if they contain words like
+##	'permease', 'ATP-binding', 'substrate binding', or 'periplasmic binding'.
+##	
+##	
+####	Complexes that pre-existed in the PGDB
+##	
+CPLX-PRE-EXISTING	<i>sn</i>-glycerol-3-phosphate ABC transporter	CPLX2SBR-12
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein	R6879_000762-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease subunit	R6879_000760-MONOMER
+SUBUNIT-OF-CPLX	glycerol ABC transporter substrate-binding protein	R6879_000759-MONOMER
+SUBUNIT-OF-CPLX	sugar ABC transporter permease	R6879_000761-MONOMER
+##	
+CPLX-PRE-EXISTING	ABC transporter	CPLX2SBR-19
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein	R6879_000912-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease	R6879_000914-MONOMER
+SUBUNIT-OF-CPLX	BMP family ABC transporter substrate-binding protein	R6879_000910-MONOMER
+SUBUNIT-OF-CPLX	sugar ABC transporter permease	R6879_000913-MONOMER
+##	
+CPLX-PRE-EXISTING	ABC transporter	CPLX2SBR-21
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein	R6879_000544-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease	R6879_000543-MONOMER
+##	
+CPLX-PRE-EXISTING	ABC transporter	CPLX2SBR-16
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein	R6879_000466-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein	R6879_000467-MONOMER
+##	
+CPLX-PRE-EXISTING	ABC transporter	CPLX2SBR-22
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein	R6879_000922-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease	R6879_000921-MONOMER
+##	
+CPLX-PRE-EXISTING	ABC transporter	CPLX2SBR-17
+SUBUNIT-OF-CPLX	ABC transporter permease subunit	R6879_000289-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter substrate-binding protein	R6879_000287-MONOMER
+SUBUNIT-OF-CPLX	ATP-binding cassette domain-containing protein	R6879_000288-MONOMER
+##	
+CPLX-PRE-EXISTING	ABC transporter	CPLX2SBR-14
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein	R6879_000245-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease subunit	R6879_000247-MONOMER
+SUBUNIT-OF-CPLX	sugar ABC transporter permease	R6879_000246-MONOMER
+##	
+CPLX-PRE-EXISTING	ABC transporter	CPLX2SBR-15
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein	R6879_000095-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease	R6879_000096-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease	R6879_000097-MONOMER
+##	
+CPLX-PRE-EXISTING	ABC transporter	CPLX2SBR-13
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein	R6879_000889-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease	R6879_000890-MONOMER
+##	
+CPLX-PRE-EXISTING	ABC transporter	CPLX2SBR-18
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein	R6879_000926-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein	R6879_000927-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease	R6879_000928-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease	R6879_000929-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter substrate-binding protein	R6879_000930-MONOMER
+##	
+CPLX-PRE-EXISTING	ABC transporter	CPLX2SBR-11
+SUBUNIT-OF-CPLX	ABC transporter permease	R6879_000553-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease subunit	R6879_000554-MONOMER
+##	
+CPLX-PRE-EXISTING	ABC transporter	CPLX2SBR-20
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein	R6879_000704-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein	R6879_000705-MONOMER
+##	
+CPLX-PRE-EXISTING	ABC transporter complex	CPLX2SBR-10
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein	R6879_000076-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease	R6879_000074-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease	R6879_000075-MONOMER
+SUBUNIT-OF-CPLX	ATP-binding cassette domain-containing protein	R6879_000077-MONOMER
+##	
+CPLX-PRE-EXISTING	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase	CPLX2SBR-5
+SUBUNIT-OF-CPLX	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB	R6879_000847-MONOMER
+SUBUNIT-OF-CPLX	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatC	R6879_000849-MONOMER
+##	
+CPLX-PRE-EXISTING	DNA polymerase III	CPLX2SBR-2
+SUBUNIT-OF-CPLX	DNA polymerase III subunit alpha	R6879_000140-MONOMER
+SUBUNIT-OF-CPLX	DNA polymerase III subunit beta	R6879_000897-MONOMER
+SUBUNIT-OF-CPLX	DNA polymerase III subunit delta	R6879_000532-MONOMER
+SUBUNIT-OF-CPLX	DNA polymerase III subunit delta'	R6879_000795-MONOMER
+SUBUNIT-OF-CPLX	DNA polymerase III subunit gamma/tau	R6879_000799-MONOMER
+##	
+CPLX-PRE-EXISTING	DNA topoisomerase IV	CPLX2SBR-9
+SUBUNIT-OF-CPLX	DNA topoisomerase IV subunit A	R6879_000160-MONOMER
+SUBUNIT-OF-CPLX	DNA topoisomerase IV subunit B	R6879_000159-MONOMER
+##	
+CPLX-PRE-EXISTING	DNA-directed RNA polymerase	CPLX2SBR-6
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase subunit alpha	R6879_000606-MONOMER
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase subunit beta	R6879_000712-MONOMER
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase subunit beta'	R6879_000711-MONOMER
+##	
+CPLX-PRE-EXISTING	F0F1 ATP synthase	CPLX2SBR-4
+SUBUNIT-OF-CPLX	ATP F0F1 synthase subunit alpha	R6879_000511-MONOMER
+SUBUNIT-OF-CPLX	F0F1 ATP synthase subunit beta	R6879_000510-MONOMER
+##	
+CPLX-PRE-EXISTING	F0F1 ATP synthase	CPLX2SBR-3
+SUBUNIT-OF-CPLX	ATP synthase F0 subunit C	R6879_000417-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase F1 subunit delta	R6879_000415-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase F1 subunit gamma	R6879_000413-MONOMER
+SUBUNIT-OF-CPLX	F0F1 ATP synthase subunit A	R6879_000418-MONOMER
+SUBUNIT-OF-CPLX	F0F1 ATP synthase subunit B	R6879_000416-MONOMER
+SUBUNIT-OF-CPLX	F0F1 ATP synthase subunit alpha	R6879_000414-MONOMER
+SUBUNIT-OF-CPLX	F0F1 ATP synthase subunit beta	R6879_000412-MONOMER
+##	
+CPLX-PRE-EXISTING	PTS L-ascorbate transporter	CPLX2SBR-27
+SUBUNIT-OF-CPLX	PTS transporter subunit EIIA	R6879_000738-MONOMER
+SUBUNIT-OF-CPLX	PTS transporter subunit EIIBA	R6879_000739-MONOMER
+SUBUNIT-OF-CPLX	PTS transporter subunit EIIC	R6879_000740-MONOMER
+##	
+CPLX-PRE-EXISTING	excinuclease ABC	CPLX2SBR-8
+SUBUNIT-OF-CPLX	excinuclease ABC subunit UvrA	R6879_000387-MONOMER
+SUBUNIT-OF-CPLX	excinuclease ABC subunit UvrB	R6879_000388-MONOMER
+##	
+CPLX-PRE-EXISTING	phenylalanine--tRNA ligase	CPLX2SBR-1
+SUBUNIT-OF-CPLX	phenylalanine--tRNA ligase subunit alpha	R6879_000036-MONOMER
+SUBUNIT-OF-CPLX	phenylalanine--tRNA ligase subunit beta	R6879_000038-MONOMER
+##	
+CPLX-PRE-EXISTING	preprotein translocase	CPLX2SBR-26
+SUBUNIT-OF-CPLX	preprotein translocase subunit SecA	R6879_000291-MONOMER
+SUBUNIT-OF-CPLX	preprotein translocase subunit SecE	R6879_000006-MONOMER
+SUBUNIT-OF-CPLX	preprotein translocase subunit SecG	R6879_000198-MONOMER
+SUBUNIT-OF-CPLX	preprotein translocase subunit SecY	R6879_000613-MONOMER
+##	
+CPLX-PRE-EXISTING	putative PTS glucose transport complex	CPLX2SBR-28
+SUBUNIT-OF-CPLX	PTS transporter subunit EIIA	R6879_000738-MONOMER
+SUBUNIT-OF-CPLX	PTS transporter subunit EIIBB	R6879_000260-MONOMER
+SUBUNIT-OF-CPLX	PTS transporter subunit EIIC	R6879_000740-MONOMER
+##	
+CPLX-PRE-EXISTING	putative glycerol ABC-type transporter	CPLX2SBR-29
+SUBUNIT-OF-CPLX	ATP-binding cassette domain-containing protein	R6879_000590-MONOMER
+SUBUNIT-OF-CPLX	carbohydrate ABC transporter permease	R6879_000592-MONOMER
+SUBUNIT-OF-CPLX	substrate-binding protein	R6879_000589-MONOMER
+SUBUNIT-OF-CPLX	sugar ABC transporter permease	R6879_000591-MONOMER
+##	
+CPLX-PRE-EXISTING	pyruvate dehydrogenase	CPLX2SBR-39
+SUBUNIT-OF-CPLX	pyruvate dehydrogenase E1, &alpha; subunit	R6879_000064-MONOMER
+SUBUNIT-OF-CPLX	pyruvate dehydrogenase E1, &beta; subunit	R6879_000065-MONOMER
+SUBUNIT-OF-CPLX	pyruvate dehydrogenase E2 subunit	R6879_000067-MONOMER
+SUBUNIT-OF-CPLX	pyruvate dehydrogenase E3 subunit	R6879_000068-MONOMER
+##	
+CPLX-PRE-EXISTING	pyruvate dehydrogenase E1	CPLX2SBR-38
+SUBUNIT-OF-CPLX	pyruvate dehydrogenase E1, &alpha; subunit	R6879_000064-MONOMER
+SUBUNIT-OF-CPLX	pyruvate dehydrogenase E1, &beta; subunit	R6879_000065-MONOMER
+##	
+CPLX-PRE-EXISTING	restriction endonuclease	CPLX2SBR-34
+SUBUNIT-OF-CPLX	restriction endonuclease subunit R	R6879_000419-MONOMER
+SUBUNIT-OF-CPLX	restriction endonuclease subunit S	R6879_000214-MONOMER
+##	
+CPLX-PRE-EXISTING	restriction endonuclease	CPLX2SBR-25
+SUBUNIT-OF-CPLX	restriction endonuclease subunit S	R6879_000662-MONOMER
+SUBUNIT-OF-CPLX	restriction endonuclease subunit S	R6879_000664-MONOMER
+SUBUNIT-OF-CPLX	restriction endonuclease subunit S	R6879_000667-MONOMER
+##	
+CPLX-PRE-EXISTING	tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex	CPLX2SBR-7
+SUBUNIT-OF-CPLX	tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex ATPase subunit type 1 TsaE	R6879_000455-MONOMER
+SUBUNIT-OF-CPLX	tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex transferase subunit TsaD	R6879_000453-MONOMER
+##	
+##	
+####	 5 Polypeptides containing PTS- and subunit-related words, but with no suitable grouping or were pruned from a group.
+##	The columns are:
+## Protein ID	Common Name	
+##	
+R6879_000738-MONOMER	PTS transporter subunit EIIA	
+R6879_000739-MONOMER	PTS transporter subunit EIIBA	
+R6879_000260-MONOMER	PTS transporter subunit EIIBB	
+R6879_000451-MONOMER	PTS transporter subunit EIIBC (inactive)	
+R6879_000740-MONOMER	PTS transporter subunit EIIC	
+##	
+####	 10 Polypeptides containing subunit-related words, but with no matching sibling subunits.
+##	The columns are:
+## Protein ID	Canonicalized core string used for matching	Common Name
+##	
+R6879_000492-MONOMER	abcthreecomponentsystem	ABC-three component system middle component 6
+R6879_000411-MONOMER	atpsynthasedeltaepsilonchainalphahelixdomaincontaining	ATP synthase delta/epsilon chain alpha-helix domain-containing protein
+R6879_000137-MONOMER	bmpfamilyabctransporter	BMP family ABC transporter substrate-binding protein
+R6879_000660-MONOMER	dnagyrase	DNA gyrase subunit A
+R6879_000872-MONOMER	dnatopoisomerase	DNA topoisomerase subunit B
+R6879_000602-MONOMER	energycouplingfactortransportertrans	energy-coupling factor transporter transmembrane component T
+R6879_000025-MONOMER	ribonucleasep	ribonuclease P protein component
+R6879_000202-MONOMER	ribosomesmallsubunitdependentgtpase	ribosome small subunit-dependent GTPase A
+R6879_000851-MONOMER	smcscpcomplex	SMC-Scp complex subunit ScpB
+R6879_000668-MONOMER	typeirestrictionmodificationsystem	type I restriction-modification system subunit M

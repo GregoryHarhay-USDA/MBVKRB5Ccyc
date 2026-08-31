@@ -1,0 +1,38 @@
+::: Pathway Rescoring Report written at  25-Aug-2026  16:49:06
+
+There are 61 pathways currently in the PGDB.  Of these, 54 pathways were 
+previously inferred and their status has not changed.  The remainder are either
+newly inferred or require(d) manual confirmation for the various reasons stated
+below.  Pathways in the lists below that are marked with an X have been 
+interactively deleted.  All other pathways in the various lists below were 
+present in the PGDB at report generation time.  
+This report was generated on 25-Aug-2026  16:49:06.
+
+0 Pathways that were previously deleted manually now have evidence for additional or different reactions.
+
+
+0 Pathways that were previously inferred but which now would be pruned due to insufficient evidence.
+You will probably want to delete most or all of these.
+
+
+0 Pathways that were added since PathoLogic was last run but which now would be pruned.
+You should consider deleting most or all of these.
+
+
+7 Pathways are not present in MetaCyc.  If any of these pathways have been created specifically for your
+organism and have experimental evidence and comments, please consider submitting them for inclusion into
+MetaCyc.  If not, these are probably pathways that have been deleted from Metacyc (and possibly replaced
+with others).  You should consider carefully whether these pathways should be kept or deleted.
+ 	PWY-8508-1	PWY-8508-1	
+ 	PWY2SBR-12	PWY2SBR-12	
+ 	PWY2SBR-2	PWY2SBR-2	
+ 	PWY2SBR-4	PWY2SBR-4	
+ 	PWY2SBR-5	PWY2SBR-5	
+ 	PWY2SBR-8	PWY2SBR-8	
+ 	PWY2SBR-9	PWY2SBR-9	
+
+
+0 Pathways have been newly inferred in this organism.
+You should check the list for false positives, but otherwise you will want to keep most of these.
+
+

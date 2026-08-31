@@ -1,0 +1,168 @@
+Chokepoint reaction report for Mycoplasmopsis bovis KRB5 (MBVKRB5C) on 2026-08-25_18-22-29
+
+Parameters: (EXCLUDE-HUMAN-RXNS-P T EXCLUDE-ISOZYMES-P NIL
+             ONLY-IN-MULTIPLE-PWYS-P NIL)
+
+Definition: A chokepoint reaction is a reaction that is either the unique consumer of a given metabolite
+(the only reaction consuming that metabolite), or is the unique producer of a metabolite. That metabolite
+must have at least one reaction that consumes it and at least one reaction that produces it (in other
+words, the metabolite must not be a dead-end). In theory, chokepoint reactions make good drug targets
+because disabling that reaction disrupts the only path to or from a metabolite.
+The definition of a chokepoint used here was derived from: Genome Research 14:917 (2004) "Computational
+analysis of Plasmodium falciparum metabolism: Organizing genomic information to facilitate drug discovery".
+
+
+Reactions that are chokepoints on the producing side (73):
+PPENTOMUT-RXN                                               a-D-ribose-1-phosphate  ->  D-ribose 5-phosphate
+NICONUCADENYLYLTRAN-RXN                                     b-nicotinate D-ribonucleotide + ATP + H+  ->  nicotinate adenine dinucleotide + diphosphate
+RXN-22914                                                   (R)-4'-phosphopantothenate + CTP + H+  ->  (R)-4'-phosphopantothenoyl-cytidylate + diphosphate
+RXN-14570                                                   (L-threonylcarbamoyl)adenylate + an adenine37 in tRNA  ->  an N6-L-threonylcarbamoyladenine37 in tRNA + AMP + H+
+P-PANTOCYSDECARB-RXN                                        (R)-4'-phosphopantothenoyl-L-cysteine + H+  ->  CO2 + 4'-phosphopantetheine
+DEOXYADENOSINE-KINASE-RXN                                   2'-deoxyadenosine + ATP  ->  dAMP + ADP + H+
+CYTIDEAM-RXN                                                2'-deoxycytidine + H+ + H2O  ->  2'-deoxyuridine + ammonium
+RXN-12508                                                   2-(a-hydroxyethyl)thiamine diphosphate + a [pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine  ->  a [pyruvate dehydrogenase E2 protein] N6-S-acetyldihydrolipoyl-L-lysine + thiamine diphosphate
+RXN-15124                                                   2-aminoprop-2-enoate  ->  2-iminopropanoate
+D-PPENTOMUT-RXN                                             2-deoxy-a-D-ribose 1-phosphate  ->  2-deoxy-D-ribose 5-phosphate
+RXN0-705                                                    3-dehydro-L-gulonate 6-phosphate + H+  ->  L-xylulose 5-phosphate + CO2
+RXN-10035                                                   S-methyl-5'-thioadenosine + H+ + H2O  ->  S-methyl-5'-thioinosine + ammonium
+RXN-17918                                                   a [DNA ligase]-N6-(5'-adenylyl)-L-lysine + 5'-phospho-[DNA] + 2 H+  ->  adenosine-5'-diphospho-5'-[DNA] + a [DNA ligase]-L-lysine
+RXN-17920                                                   a [DNA ligase]-L-lysine + NAD+  ->  a [DNA ligase]-N6-(5'-adenylyl)-L-lysine + b-nicotinamide D-ribonucleotide + 2 H+
+RXN-13032                                                   a [glycine-cleavage complex H protein] N6-[(R)-lipoyl]-L-lysine + a [lipoyl-carrier protein]-L-lysine  ->  a [lipoyl-carrier protein]-N6-[(R)-lipoyl]-L-lysine + [glycine cleavage system lipoyl-carrier protein]-L-lysine
+RXN-13031                                                   a [lipoyl-carrier protein]-N6-[(R)-lipoyl]-L-lysine + H2O  ->  a [lipoyl-carrier protein]-L-lysine + (R)-lipoate
+RXN0-20                                                     a [prolipoprotein]-L-cysteine + a phosphatidylglycerol  ->  a [prolipoprotein]-S-1,2-diacyl-sn-glyceryl-L-cysteine + sn-glycerol 1-phosphate + H+
+RXN-24296                                                   a [prolipoprotein]-L-cysteine[cytosol]  ->  a [prolipoprotein]-L-cysteine[plasma membrane]
+RXN-17355                                                   a [PTS enzyme I]-Np-phospho-L-histidine + an [HPr]-L-histidine  ->  a [PTS enzyme I]-L-histidine + an [HPr protein]-Np-phospho-L-histidine
+RXN0-1132                                                   a [pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine + NAD+  ->  a [pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine + NADH + H+
+RXN0-1133                                                   acetyl-CoA + a [pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine  <-  coenzyme A + a [pyruvate dehydrogenase E2 protein] N6-S-acetyldihydrolipoyl-L-lysine
+RXN-1381                                                    an acyl-CoA + sn-glycerol 3-phosphate  ->  a 2-lysophosphatidate + coenzyme A
+RXN-1623                                                    an acyl-CoA + a 2-lysophosphatidate  ->  a phosphatidate + coenzyme A
+RXN-17882                                                   an N-terminal 3-sulfeno-L-alanyl-[protein] + hydrogen peroxide  ->  an N-terminal 3-sulfino-L-alanyl-[protein] + H2O
+RXN-17881                                                   an N-terminal L-cysteinyl-[protein] + hydrogen peroxide  ->  an N-terminal 3-sulfeno-L-alanyl-[protein] + H2O
+RXN-17874                                                   an N-terminal-L-methionyl-L-cysteinyl-[protein] + H2O  ->  an N-terminal L-cysteinyl-[protein] + L-methionine
+RXN0-2461                                                   an [HPr protein]-Np-phospho-L-histidine + L-ascorbate[extracellular space]  ->  L-ascorbate 6-phosphate[cytosol] + an [HPr]-L-histidine
+RXN-8654                                                    ATP + (R)-lipoate + H+  ->  [(R)-lipoyl]adenylate + diphosphate
+PANTEPADENYLYLTRAN-RXN                                      ATP + 4'-phosphopantetheine + H+  ->  3'-dephospho-CoA + diphosphate
+DEOXYADENYLATE-KINASE-RXN                                   ATP + dAMP  ->  ADP + dADP
+RXN-7913                                                    ATP + dCMP  ->  ADP + dCDP
+DTMPKI-RXN                                                  ATP + dTMP  ->  ADP + dTDP
+RXN-20080                                                   ATP + L-aspartyl-[tRNAAsn]  ->  ADP + 4-phosphooxy-L-aspartyl-[tRNAAsn]
+RXN-20082                                                   ATP + L-glutamyl-[tRNAGln]  ->  5-phosphooxy-L-glutamyl-[tRNAGln] + ADP
+RXN-12002                                                   ATP + UMP  ->  ADP + UDP
+CDPDIGLYSYN-RXN                                             CTP + a phosphatidate + H+  ->  a CDP-diacylglycerol + diphosphate
+CYTIDEAM2-RXN                                               cytidine + H+ + H2O  ->  uridine + ammonium
+RXN-23929                                                   D-aspartate + ATP + H+  ->  (D-aspartyl)adenylate + diphosphate
+PRPPSYN-RXN                                                 D-ribose 5-phosphate + ATP  ->  5-phospho-a-D-ribose 1-diphosphate + AMP + H+
+RXN-23931                                                   D-tryptophan + ATP + H+  ->  (D-tryptophanyl)adenylate + diphosphate
+RXN-23934                                                   D-tyrosine + ATP + H+  ->  (D-tyrosyl)adenylate + diphosphate
+RXN-12540                                                   hydrogen peroxide + Fe2+  ->  hydroxyl radical + Fe3+ + OH-
+RXN-17190                                                   L-alanine + ATP + H+  ->  (L-alanyl)adenylate + diphosphate
+RXN-19498                                                   L-arginine + ATP + H+  ->  (L-arginyl)adenylate + diphosphate
+RXN0-5214                                                   L-ascorbate 6-phosphate + H2O  ->  3-dehydro-L-gulonate 6-phosphate
+RXN-21104                                                   L-asparagine + ATP + H+  ->  (L-asparaginyl)adenylate + diphosphate
+RXN-12460                                                   L-asparaginyl-[tRNAAsn] + H2O  ->  L-asparagine + tRNAAsn + H+
+RXN-14814                                                   L-aspartate + ATP + H+  ->  (L-aspartyl)adenylate + diphosphate
+RXN-11115                                                   L-cysteine + ATP + H+  ->  (L-cysteinyl)adenylate + diphosphate
+RXN-18804                                                   L-glutamate + ATP + H+  ->  (L-glutamyl)adenylate + diphosphate
+RXN-23894                                                   L-glutamine + ATP + H+  ->  (L-glutaminyl)adenylate + diphosphate
+RXN-23888                                                   L-histidine + ATP + H+  ->  (L-histidyl)adenylate + diphosphate
+RXN-23889                                                   L-isoleucine + ATP + H+  ->  (L-isoleucyl)adenylate + diphosphate
+RXN-23890                                                   L-leucine + ATP + H+  ->  (L-leucyl)adenylate + diphosphate
+RXN-22679                                                   L-lysine + ATP + H+  ->  (L-lysyl)adenylate + diphosphate
+RXN-23891                                                   L-methionine + ATP + H+  ->  (L-methionyl)adenylate + diphosphate
+RXN-23892                                                   L-phenylalanine + ATP + H+  ->  (L-phenylalanyl)adenylate + diphosphate
+RXN-19079                                                   L-proline + ATP + H+  ->  (L-prolyl)adenylate + diphosphate
+ENTF-RXN                                                    L-serine + ATP + H+  ->  (L-seryl)adenylate + diphosphate
+RXN-9377                                                    L-threonine + ATP + H+  ->  (L-threonyl)adenylate + diphosphate
+RXN-14569                                                   L-threonine + hydrogen carbonate + ATP  ->  (L-threonylcarbamoyl)adenylate + diphosphate + H2O
+RXN-19475                                                   L-tryptophan + ATP + H+  ->  (L-tryptophanyl)adenylate + diphosphate
+RXN-23088                                                   L-tyrosine + ATP + H+  ->  (L-tryrosyl)adenylate + diphosphate
+RXN-22838                                                   L-valine + ATP + H+  ->  (L-valyl)adenylate + diphosphate
+NICOTINAMID-RXN                                             nicotinamide + H2O  ->  ammonium + nicotinate
+NICOTINATEPRIBOSYLTRANS-RXN                                 nicotinate + 5-phospho-a-D-ribose 1-diphosphate + ATP + H2O  ->  b-nicotinate D-ribonucleotide + ADP + diphosphate + phosphate
+RXN0-7423                                                   octanoate + ATP + H+  ->  (octanoyl)adenylate + diphosphate
+3.4.11.5-RXN                                                peptide with an N-terminal L-proline + H2O  ->  L-proline + peptide
+RXN-17354                                                   phosphoenolpyruvate + a [PTS enzyme I]-L-histidine  ->  pyruvate + a [PTS enzyme I]-Np-phospho-L-histidine
+PSEUDOURIDINE-KINASE-RXN                                    pseudouridine + ATP  ->  pseudouridine 5'-phosphate + ADP + H+
+RXN-12583                                                   pyruvate + thiamine diphosphate + H+  ->  2-(a-hydroxyethyl)thiamine diphosphate + CO2
+THIOREDOXIN-REDUCT-NADPH-RXN                                reduced thioredoxin + NADP+  <-  oxidized thioredoxin + NADPH + H+
+URACIL-PRIBOSYLTRANS-RXN                                    UMP + diphosphate  <-  5-phospho-a-D-ribose 1-diphosphate + uracil
+
+Reactions that are chokepoints on the consuming side (66):
+
+2.7.7.1-RXN                                                 b-nicotinamide D-ribonucleotide + ATP + H+  ->  NAD+ + diphosphate
+NICONUCADENYLYLTRAN-RXN                                     b-nicotinate D-ribonucleotide + ATP + H+  ->  nicotinate adenine dinucleotide + diphosphate
+RXN-23930                                                   (D-aspartyl)adenylate + tRNAasp  ->  D-aspartyl-[tRNAasp] + AMP + H+
+RXN-23932                                                   (D-tryptophanyl)adenylate + tRNATrp  ->  D-tryptophanyl-[tRNATrp] + AMP + H+
+RXN-23935                                                   (D-tyrosyl)adenylate + tRNATyr  ->  D-tyrosyl-[tRNATyr] + AMP + H+
+RXN-23905                                                   (L-arginyl)adenylate + tRNAArg  ->  L-arginyl-[tRNAArg] + AMP + H+
+RXN-23908                                                   (L-asparaginyl)adenylate + tRNAAsn  ->  L-asparaginyl-[tRNAAsn] + AMP + H+
+RXN-23895                                                   (L-cysteinyl)adenylate + tRNACys  ->  L-cysteinyl-[tRNACys] + AMP + H+
+RXN-23911                                                   (L-glutaminyl)adenylate + tRNAGln  ->  L-glutaminyl-[tRNAGln] + AMP + H+
+RXN-23897                                                   (L-histidyl)adenylate + tRNAHis  ->  L-histidyl-[tRNAHis] + AMP + H+
+RXN-23909                                                   (L-isoleucyl)adenylate + tRNAIle  ->  L-isoleucyl-[tRNAIle] + AMP + H+
+RXN-23903                                                   (L-leucyl)adenylate + tRNALeu  ->  L-leucyl-[tRNALeu] + AMP + H+
+RXN-23898                                                   (L-lysyl)adenylate + tRNALys  ->  L-lysyl-[tRNALys] + AMP + H+
+RXN-23904                                                   (L-phenylalanyl)adenylate + tRNAPhe  ->  L-phenylalanyl-[tRNAPhe] + AMP + H+
+RXN-23899                                                   (L-prolyl)adenylate + tRNAPro  ->  L-prolyl-[tRNAPro] + AMP + H+
+RXN-14570                                                   (L-threonylcarbamoyl)adenylate + an adenine37 in tRNA  ->  an N6-L-threonylcarbamoyladenine37 in tRNA + AMP + H+
+RXN-23893                                                   (L-tryptophanyl)adenylate + tRNATrp  ->  L-tryptophanyl-[tRNATrp] + AMP + H+
+RXN-22915                                                   (R)-4'-phosphopantothenoyl-cytidylate + L-cysteine  ->  (R)-4'-phosphopantothenoyl-L-cysteine + CMP + 2 H+
+P-PANTOCYSDECARB-RXN                                        (R)-4'-phosphopantothenoyl-L-cysteine + H+  ->  CO2 + 4'-phosphopantetheine
+RXN-12508                                                   2-(a-hydroxyethyl)thiamine diphosphate + a [pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine  ->  a [pyruvate dehydrogenase E2 protein] N6-S-acetyldihydrolipoyl-L-lysine + thiamine diphosphate
+DEOXYRIBOSE-P-ALD-RXN                                       2-deoxy-D-ribose 5-phosphate  ->  D-glyceraldehyde 3-phosphate + acetaldehyde
+RXN-15127                                                   2-iminopropanoate + H2O  ->  pyruvate + ammonium
+DEPHOSPHOCOAKIN-RXN                                         3'-dephospho-CoA + ATP  ->  coenzyme A + ADP + H+
+RXN0-705                                                    3-dehydro-L-gulonate 6-phosphate + H+  ->  L-xylulose 5-phosphate + CO2
+RXN-20081                                                   4-phosphooxy-L-aspartyl-[tRNAAsn] + ammonia  ->  L-asparaginyl-[tRNAAsn] + phosphate
+RXN-20083                                                   5-phosphooxy-L-glutamyl-[tRNAGln] + ammonia  ->  L-glutaminyl-[tRNAGln] + phosphate
+RXN-12241                                                   S-methyl-5'-thioinosine + phosphate  ->  hypoxanthine + S-methyl-5-thio-a-D-ribose 1-phosphate
+PHOSPHAGLYPSYN-RXN                                          a CDP-diacylglycerol + sn-glycerol 3-phosphate  ->  CMP + a phosphatidylglycerophosphate + H+
+DIHYDROFOLATEREDUCT-RXN                                     a tetrahydrofolate + NADP+  <-  a 7,8-dihydrofolate + NADPH + H+
+RXN-17918                                                   a [DNA ligase]-N6-(5'-adenylyl)-L-lysine + 5'-phospho-[DNA] + 2 H+  ->  adenosine-5'-diphospho-5'-[DNA] + a [DNA ligase]-L-lysine
+RXN-17920                                                   a [DNA ligase]-L-lysine + NAD+  ->  a [DNA ligase]-N6-(5'-adenylyl)-L-lysine + b-nicotinamide D-ribonucleotide + 2 H+
+RXN-13031                                                   a [lipoyl-carrier protein]-N6-[(R)-lipoyl]-L-lysine + H2O  ->  a [lipoyl-carrier protein]-L-lysine + (R)-lipoate
+RXN-17362                                                   a [prolipoprotein]-S-1,2-diacyl-sn-glyceryl-L-cysteine + H2O  ->  an (S-diacyl-sn-glyceryl)-L-cysteinyl-[apolipoprotein] + a lipoprotein signal peptide
+RXN-17355                                                   a [PTS enzyme I]-Np-phospho-L-histidine + an [HPr]-L-histidine  ->  a [PTS enzyme I]-L-histidine + an [HPr protein]-Np-phospho-L-histidine
+RXN0-1132                                                   a [pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine + NAD+  ->  a [pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine + NADH + H+
+RXN0-1133                                                   acetyl-CoA + a [pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine  <-  coenzyme A + a [pyruvate dehydrogenase E2 protein] N6-S-acetyldihydrolipoyl-L-lysine
+RXN0-7115                                                   an N6-L-threonylcarbamoyladenine37 in tRNA + ATP  ->  a cyclic N6-L-threonylcarbamoyladenosine 37 in tRNA + ADP + phosphate
+RXN-1623                                                    an acyl-CoA + a 2-lysophosphatidate  ->  a phosphatidate + coenzyme A
+RXN-17882                                                   an N-terminal 3-sulfeno-L-alanyl-[protein] + hydrogen peroxide  ->  an N-terminal 3-sulfino-L-alanyl-[protein] + H2O
+RXN-17883                                                   an N-terminal 3-sulfino-L-alanyl-[protein] + hydrogen peroxide  ->  an N-terminal 3-sulfo-L-alanyl-[protein] + H2O + H+
+RXN-17881                                                   an N-terminal L-cysteinyl-[protein] + hydrogen peroxide  ->  an N-terminal 3-sulfeno-L-alanyl-[protein] + H2O
+PANTEPADENYLYLTRAN-RXN                                      ATP + 4'-phosphopantetheine + H+  ->  3'-dephospho-CoA + diphosphate
+DEOXYADENYLATE-KINASE-RXN                                   ATP + dAMP  ->  ADP + dADP
+DCDPKIN-RXN                                                 ATP + dCDP  ->  ADP + dCTP
+RXN-7913                                                    ATP + dCMP  ->  ADP + dCDP
+DTDPKIN-RXN                                                 ATP + dTDP  ->  ADP + dTTP
+DTMPKI-RXN                                                  ATP + dTMP  ->  ADP + dTDP
+UDPKIN-RXN                                                  ATP + UDP  ->  ADP + UTP
+RXN-12002                                                   ATP + UMP  ->  ADP + UDP
+CDPDIGLYSYN-RXN                                             CTP + a phosphatidate + H+  ->  a CDP-diacylglycerol + diphosphate
+RXN0-5398                                                   D-ribofuranose 5-phosphate + uracil  <-  pseudouridine 5'-phosphate + H2O
+PRPPSYN-RXN                                                 D-ribose 5-phosphate + ATP  ->  5-phospho-a-D-ribose 1-diphosphate + AMP + H+
+RXN-14290                                                   dATP + 2 hydroxyl radical  ->  2-hydroxy-dATP + H2O
+RXN-11410                                                   dGTP + 2 hydroxyl radical  ->  8-oxo-dGTP + H2O
+PHOSPHO-DETHIO-RXN                                          diethylthiophosphate + H2O  ->  diethylphosphate + hydrogen sulfide
+RXN-22324                                                   dimethylarsinous acid + glutathione  ->  dimethylarsino-glutathione + H2O
+RXN-12540                                                   hydrogen peroxide + Fe2+  ->  hydroxyl radical + Fe3+ + OH-
+RXN0-5214                                                   L-ascorbate 6-phosphate + H2O  ->  3-dehydro-L-gulonate 6-phosphate
+RXN-12460                                                   L-asparaginyl-[tRNAAsn] + H2O  ->  L-asparagine + tRNAAsn + H+
+LXULRU5P-RXN                                                L-ribulose 5-phosphate  <-  L-xylulose 5-phosphate
+NICOTINATEPRIBOSYLTRANS-RXN                                 nicotinate + 5-phospho-a-D-ribose 1-diphosphate + ATP + H2O  ->  b-nicotinate D-ribonucleotide + ADP + diphosphate + phosphate
+RXN-17354                                                   phosphoenolpyruvate + a [PTS enzyme I]-L-histidine  ->  pyruvate + a [PTS enzyme I]-Np-phospho-L-histidine
+RXN-12583                                                   pyruvate + thiamine diphosphate + H+  ->  2-(a-hydroxyethyl)thiamine diphosphate + CO2
+THIOREDOXIN-REDUCT-NADPH-RXN                                reduced thioredoxin + NADP+  <-  oxidized thioredoxin + NADPH + H+
+URACIL-PRIBOSYLTRANS-RXN                                    UMP + diphosphate  <-  5-phospho-a-D-ribose 1-diphosphate + uracil
+URPHOS-RXN                                                  uridine + phosphate  ->  a-D-ribose-1-phosphate + uracil
+
+Reactions that are not chokepoints, but are candidates (8):
+
+ALCOHOL-DEHYDROG-GENERIC-RXN                                a primary alcohol + NAD+  =  an aldehyde + NADH + H+
+RXN0-5131                                                   an insertion sequence element IS30  =  an insertion sequence IS30 with integrated transposon
+DUTP-PYROP-RXN                                              dUTP + H2O  =  dUMP + diphosphate + H+
+RXN-9376                                                    glycine + ATP  =  (glycyl)adenylate + diphosphate
+RXN0-308                                                    L-cysteine + an [L-cysteine desulfurase]-L-cysteine  =  L-alanine + an [L-cysteine desulfurase]-S-sulfanyl-L-cysteine
+RXN-15125                                                   L-serine  =  2-aminoprop-2-enoate + H2O
+METHANOL-DEHYDROGENASE-RXN                                  methanol + NAD+  =  formaldehyde + NADH + H+
+RXN-13198                                                   propan-1-ol + NAD+  =  1-propanal + NADH + H+
