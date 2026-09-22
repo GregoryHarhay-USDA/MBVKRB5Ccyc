@@ -12,9 +12,10 @@ This repository contains data and supporting files for MBVKRB5Ccyc.
 
 ## Contents
 
-- Data files
-- Documentation
-- Supporting HTML files
+- `PGDB/` — Pathway/Genome Database archives
+- `metadata/` — supporting metadata and extraction script(s)
+- `protein_structures/` — protein-structure HTML/PDB supporting files
+- `ptools-logs/` — Pathway Tools output logs
 
 ## Version
 
@@ -27,4 +28,3 @@ Unlicense
 ## Notes
 
 Additional details will be added later.
-
