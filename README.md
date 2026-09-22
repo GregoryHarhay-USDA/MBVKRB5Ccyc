@@ -14,7 +14,7 @@ This repository contains data and supporting files for MBVKRB5Ccyc.
 
 - Data files
 - Documentation
-- Supporting HTML files
+- Supporting HTML and protein-structure files in `protein_structures/`
 
 ## Version
 
@@ -27,4 +27,3 @@ Unlicense
 ## Notes
 
 Additional details will be added later.
-
