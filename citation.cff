@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this repository, database flat-files, or structural models in your research, please cite it as below."
+type: dataset
+title: "MBVKRB5Ccyc: Systems Biology Data Repository for Mycoplasmopsis bovis Strain KRB5"
+version: "1.0.0"
+date-released: "2026-10-05"
+repository-code: "https://github.com/GregoryHarhay-USDA/MBVKRB5Ccyc"
+url: "https://pathwaytools.scinet.usda.gov/MBVKRB5C/organism-summary"
+license: "Unlicense"
+authors:
+  - family-names: "Harhay"
+    given-names: "Gregory P."
+    email: "gregory.harhay@usda.gov"
+    affiliation: "U.S. Meat Animal Research Center (USMARC), Agricultural Research Service, U.S. Department of Agriculture, Clay Center, NE, USA"
+  - family-names: "Kaplan"
+    given-names: "Bryan"
+    affiliation: "National Animal Disease Center (NADC), Agricultural Research Service, U.S. Department of Agriculture, Ames, IA, USA"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Harhay"
+      given-names: "Gregory P."
+    - family-names: "Kaplan"
+      given-names: "Bryan"
+  title: "Structural Curation of the MBVKRB5Ccyc Database Reveals Alternative Carbon Shunts and Redox Virulence Networks in Mycoplasmopsis bovis"
+  journal: "Microbiology Spectrum"
+  year: 2026
+  status: "under-review"
+  url: "https://pathwaytools.scinet.usda.gov/MBVKRB5C/organism-summary"
+references:
+  - type: article
+    authors:
+      - family-names: "Harhay"
+        given-names: "Gregory P."
+      - family-names: "Kaplan"
+        given-names: "Bryan"
+    title: "Putative L-Ascorbate Catabolism and Redox Subversion of Host Leukocytes by Mycoplasmopsis bovis"
+    journal: "ASM Animal Microbiology"
+    year: 2026
+    status: "under-review"
