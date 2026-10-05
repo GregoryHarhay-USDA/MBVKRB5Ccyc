@@ -19,11 +19,11 @@ GregoryHarhay-USDA/MBVKRB5Ccyc/
 ├── README.md                                # Master repository documentation and data guide
 ├── LICENSE                                  # Unlicense public domain declaration
 │
-├── PGDB/                                    # [MANUSCRIPT-LINKED URL] Pathway/Genome Database flat-files
+├── PGDB/                                    # [MANUSCRIPT LINK] Pathway/Genome Database flat-files
 │   ├── UNCURATED/                           # Baseline automated PathoLogic flat-files (mbvkrb5cyc)
 │   └── CURATED/                             # Manually curated v1.0.0 flat-files (MBVKRB5Ccyc)
 │
-├── foldseek/                                # [MANUSCRIPT-LINKED URL] Legacy structural search directory
+├── foldseek/                                # [MANUSCRIPT LINK] Legacy structural search directory
 │   ├── 4X9M.v.KRB5_proteome.html            # Foldseek 3D structural alignment of M. pneumoniae GlpO against KRB5
 │   └── README.md                            # Pointer note referencing expanded protein_structures/ directory
 │
@@ -31,7 +31,7 @@ GregoryHarhay-USDA/MBVKRB5Ccyc/
 │   ├── pdb_models/                          # AlphaFold2 PDB structural models (Opd, NoxA, TrxB, PDHc subunits)
 │   └── templates/                           # Reference template PDB files (e.g., 4X9M.pdb, 6FZI.pdb)
 │
-├── ptools-logs/                             # [MANUSCRIPT-LINKED URL] Pathway Tools v29.5 run reports
+├── ptools-logs/                             # [MANUSCRIPT LINK] Pathway Tools v29.5 run reports
 │   ├── UNCURATED_pwy-inference-report_2026-08-05.txt
 │   ├── CURATED_pwy-inference-report_2026-08-05.txt
 │   ├── UNCURATED_pwy-rescoring-report_2026-08-05.txt
@@ -46,7 +46,7 @@ GregoryHarhay-USDA/MBVKRB5Ccyc/
 │
 └── alignments_vcf/                          # Genomic population surveillance and variant profiles
     ├── vcf/                                 # VCF variant calls across 122 closed complete genomes
-    ├── msa/                                 # SAM format sequence alignment files (.sam) for opd genotypes
+    ├── msa/                                 # Sequence Alignment/Map (SAM) format files (.sam) for 16 opd genotypes
     └── trees/                               # MrBayes unrooted phylogenetic tree outputs (.nex/.tree)
 ```
 
@@ -114,8 +114,8 @@ Manual curation of MBVKRB5Ccyc v1.0 successfully bridged severe sequence diverge
 3. **Cytosolic Redox & Peroxide Virulence Network**:
    Curation resolved H₂O₂-producing cytosolic NADH oxidase NoxA (R6879_000281; TM-score 0.97 to clostridial 6FZI) and FAD-dependent oxidoreductase TrxB (R6879_000062) with predicted moonlighting glycerol-3-phosphate oxidase (GlpO) activity. In vitro experiments confirmed that strain KRB5 generates significantly higher cytopathic H₂O₂ concentrations compared to reference strain PG45 ($P < 0.05$ at 5 minutes).
 
-4. **Surface-Localized Moonlighting PDH Complex**:
-   Manual curation assembled the four-subunit pyruvate dehydrogenase complex (PDHc; BioCyc ID CPLX2SBR-39) spanning PdhA–D (R6879_000064–R6879_000068). Structural concordance confirms that this glycolytic terminal complex acts as a dual-function virulence factor, moonlighting on the outer membrane to bind host fibronectin and plasminogen.
+4. **Pyruvate Dehydrogenase Complex & Surface Moonlighting**:
+   Manual curation assembled the four-subunit pyruvate dehydrogenase complex (PDHc; BioCyc ID CPLX2SBR-39) spanning PdhA–D (R6879_000064–R6879_000068), with 3D structural concordance (TM-scores 0.88–0.97 against PDB templates) confirming subunit identities across the complex. Cross-referencing this assembled glycolytic node with published experimental literature (Cui et al.) links the complex to a dual-function virulence role, moonlighting on the outer membrane where PdhA–D bind host fibronectin and plasminogen.
 
 ---
 
