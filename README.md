@@ -78,7 +78,7 @@ Standardized execution logs extracted from Pathway Tools (version 29.5) providin
 
 ### `metadata/` — Cohort Epidemiological Metadata
 Contains curated BioSample and demographic records for 119 closed, complete *M. bovis* RefSeq genomes with an intact *opd* locus:
-* **`clean_m_bovis_119_biosamples_environmental_metadata_filled.csv`**: Master table integrating host species (*Bos taurus* vs. *Bison bison*), anatomical isolation niche (mammary gland, lower respiratory tract, joint fluid), geographic country of origin, and collection era (<2010 to 2021–2023).
+* **`clean_m_bovis_119_biosamples_environmental_metadata_filled.csv`**: Master table integrating host species (*Bos taurus* vs. *Bison bison*), anatomical isolation niche (e.g. milk/mammary gland, lower respiratory tract, synovial/joint fluid), geographic country of origin, and collection era (<2010 to 2021–2023).
 
 ### `alignments_vcf/` — Population Genomics & Phylogenetics
 Genomic surveillance datasets capturing evolutionary variation across the 122 closed complete genome cohort:
