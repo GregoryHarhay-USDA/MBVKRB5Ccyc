@@ -63,7 +63,7 @@ Contains complete flat-file exports of the MBVKRB5Ccyc database formatted for di
 
 ### `foldseek/` & `protein_structures/` — Structural Bioinformatic Outputs
 Contains predicted 3D protein structures generated using AlphaFold2 (ColabFold v1.5.5) and tertiary fold comparison alignments generated using Foldseek.
-* **`4X9M.v.KRB5_proteome.html`**: An interactive Foldseek alignment report comparing the crystal structure of *Mycoplasmoides pneumoniae* glycerol-3-phosphate oxidase (GlpO; PDB 4X9M) against the entire *M. bovis* KRB5 proteome.
+* **`4X9M.v.KRB5_proteome.html`**: An interactive Foldseek alignment report comparing the crystal structure of *Mycoplasmoides pneumoniae* glycerol-3-phosphate oxidase (GlpO; PDB 4X9M) against the entire *M. bovis* KRB5 proteome. This file must be downloaded on your local computer for the embedded visualization scripts to function properly.
 * **`pdb_models/`**: AlphaFold2 coordinate files (.pdb) for key metabolic enzymes, including:
   * **Opd (R6879_000741)**: Putative L-ascorbate-6-phosphate lactonase (UlaG homolog) featuring a TIM-barrel fold.
   * **NoxA (R6879_000281)**: Cytosolic H₂O₂-producing NADH oxidase aligned to clostridial template 6FZI.
