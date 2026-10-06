@@ -29,12 +29,13 @@ GregoryHarhay-USDA/MBVKRB5Ccyc/
 │
 ├── protein_structures/                      # 3D structural models and fold alignments
 │   ├── pdb_models/                          # AlphaFold2 PDB structural models (Opd, NoxA, TrxB, PDHc subunits)
+│   ├── pymol-pse/                           # PyMOL session files (.pse) visualizing active site & wobble hotspots
 │   └── templates/                           # Reference template PDB files (e.g., 4X9M.pdb, 6FZI.pdb)
 │
 ├── ptools-logs/                             # [MANUSCRIPT LINK] Pathway Tools v29.5 run reports
 │   ├── UNCURATED_pwy-inference-report_2026-08-05.txt
 │   ├── CURATED_pwy-inference-report_2026-08-05.txt
-│   ├── UNCURATED_pwy-rescoring-report_2026-08-05.txt
+│   ├── UNCURATED_pwy-rescoring-report_2026-08-25.txt
 │   ├── CURATED_pwy-rescoring-report_2026-08-25.txt
 │   ├── UNCURATED_dead-end-metabolites-2026-08-05_17-47-30.txt
 │   ├── CURATED_dead-end-metabolites-2026-08-25_18-23-37.txt
@@ -62,13 +63,14 @@ Contains complete flat-file exports of the MBVKRB5Ccyc database formatted for di
 * **`CURATED/`**: The refined v1.0.0 database (`MBVKRB5Ccyc`), incorporating 61 defined pathways, 444 reactions, 195 annotated enzymes, and 139 cytosolic chokepoint targets. Accessible online at the [MBVKRB5Ccyc Curated PGDB](https://pathwaytools.scinet.usda.gov/MBVKRB5C/organism-summary).
 
 ### `foldseek/` & `protein_structures/` — Structural Bioinformatic Outputs
-Contains predicted 3D protein structures generated using AlphaFold2 (ColabFold v1.5.5) and tertiary fold comparison alignments generated using Foldseek.
+Contains predicted 3D protein structures generated using AlphaFold2 (ColabFold v1.5.5), tertiary fold comparison alignments generated using Foldseek, and interactive PyMOL visualization sessions.
 * **`4X9M.v.KRB5_proteome.html`**: An interactive Foldseek alignment report comparing the crystal structure of *Mycoplasmoides pneumoniae* glycerol-3-phosphate oxidase (GlpO; PDB 4X9M) against the entire *M. bovis* KRB5 proteome. This file must be downloaded on your local computer for the embedded visualization scripts to function properly.
 * **`pdb_models/`**: AlphaFold2 coordinate files (.pdb) for key metabolic enzymes, including:
   * **Opd (R6879_000741)**: Putative L-ascorbate-6-phosphate lactonase (UlaG homolog) featuring a TIM-barrel fold.
   * **NoxA (R6879_000281)**: Cytosolic H₂O₂-producing NADH oxidase aligned to clostridial template 6FZI.
   * **TrxB/GlpO (R6879_000062)**: FAD-dependent oxidoreductase exhibiting dual structural concordance to thioredoxin reductase and glycerol-3-phosphate oxidase.
   * **PDHc Subunits (R6879_000064–000068)**: Structural models for PdhA (E1α), PdhB (E1β), PdhC (E2 core), and PdhD (E3).
+* **`pymol-pse/`**: PyMOL session files (`.pse`) enabling 3D interactive visualization of Opd (UlaG) active-site architecture, catalytic residues, and spatial orientation relative to synonymous mutational speed-bump hotspots.
 
 ### `ptools-logs/` — Pathway Tools Execution Reports
 Standardized execution logs extracted from Pathway Tools (version 29.5) providing audit trails and topological network metrics for both uncurated (`2026-08-05`) and curated (`2026-08-25`) database states:
@@ -111,7 +113,7 @@ Manual curation of MBVKRB5Ccyc v1.0 successfully bridged severe sequence diverge
    It is **hypothesized** that L-ascorbate import and degradation capacity is associated with anatomical niche and tissue tropism along physiological ruminant ascorbate gradients—spanning low-ascorbate rumen fluid (<1 µM), moderate plasma/synovial pools (5–40 µM), hyper-enriched milk/colostrum (57–340 µM), and dense intracellular leukocyte reservoirs (50–1,700 µM). Epidemiological surveillance links this operon to major lineage bifurcations: Clade 1 isolates strongly associate with mastitis (94.4% of milk/mammary isolates), whereas Clade 2 isolates dominate in American bison (75.0%), where host baseline plasma ascorbate levels are higher. Both shunt pathways can be directly queried in the hosted SCINet database via the [Shunt Substring Search](https://pathwaytools.scinet.usda.gov/MBVKRB5C/substring-search?type=NIL&object=shunt&quickSearch=Quick+Search).
 
 2. **Programmed Translational Speed-Bumps in *opd***:
-   Genomic surveillance across 119 closed genomes revealed 17 polymorphic wobble codons concentrated in *opd*. Synonymous substitutions in cosmopolitan Clade 2 lineages reduce the tRNA Adaptation Index (tAI sum drops from 12.99 to 10.00) and induce thermodynamic mRNA stabilization across the 200-nt target region ($\Delta\Delta G = -2.0$ kcal/mol), with local 50-nt sliding window analysis resolving a sharp thermodynamic well ($\Delta\Delta G = -6.0$ kcal/mol; local MFE shift from $-13.8$ to $-19.8$ kcal/mol) centered at midpoint 538 nt. This enforces co-translational ribosomal pauses that give the polypeptide time to fold its TIM-barrel domain under host-induced thermal and oxidative stress. Codon 186 (CAC $\rightarrow$ CAT) functions dual-role as both a speed-bump hotspot and an active-site metal-coordinating histidine.
+   Genomic surveillance across 119 closed genomes revealed 17 polymorphic wobble codons concentrated in *opd*. Synonymous substitutions in cosmopolitan Clade 2 lineages reduce the tRNA Adaptation Index (tAI sum drops from 12.99 to 10.00) and induce thermodynamic mRNA stabilization across the 200-nt target region ($\Delta\Delta G = -2.0$ kcal/mol), with local 50-nt sliding window analysis resolving a sharp thermodynamic well ($\Delta\Delta G = -6.0$ kcal/mol; local MFE shift from $-13.8$ to $-19.8$ kcal/mol) centered at midpoint 538 nt. This enforces co-translational ribosomal pauses that give the polypeptide time to fold its TIM-barrel domain under host-induced thermal and oxidative stress. Codon 186 (CAC $\rightarrow$ CAT) functions dual-role as both a speed-bump hotspot and a putative active-site metal-coordinating histidine.
 
 3. **Cytosolic Redox & Peroxide Virulence Network**:
    Curation resolved H₂O₂-producing cytosolic NADH oxidase NoxA (R6879_000281; TM-score 0.97 to clostridial 6FZI) and FAD-dependent oxidoreductase TrxB (R6879_000062) with predicted moonlighting glycerol-3-phosphate oxidase (GlpO) activity. In vitro experiments confirmed that strain KRB5 generates significantly higher cytopathic H₂O₂ concentrations compared to reference strain PG45 ($P < 0.05$ at 5 minutes).
