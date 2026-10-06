@@ -58,8 +58,8 @@ GregoryHarhay-USDA/MBVKRB5Ccyc/
 
 ### `PGDB/` — Pathway/Genome Database Flat-Files
 Contains complete flat-file exports of the MBVKRB5Ccyc database formatted for direct import into Pathway Tools (v29.5) or computational parsing via BioPython and Perl APIs.
-* **`UNCURATED/`**: The automated PathoLogic baseline build (`mbvkrb5cyc`), generated prior to manual structural curation.
-* **`CURATED/`**: The refined v1.0.0 database (`MBVKRB5Ccyc`), incorporating 61 defined pathways, 444 reactions, 195 annotated enzymes, and 139 cytosolic chokepoint targets.
+* **`UNCURATED/`**: The automated PathoLogic baseline build (`mbvkrb5cyc`), generated prior to manual structural curation. Accessible online at the [MBVKRB5 Uncurated PGDB](https://pathwaytools.scinet.usda.gov/organism-summary?object=MBVKRB5).
+* **`CURATED/`**: The refined v1.0.0 database (`MBVKRB5Ccyc`), incorporating 61 defined pathways, 444 reactions, 195 annotated enzymes, and 139 cytosolic chokepoint targets. Accessible online at the [MBVKRB5Ccyc Curated PGDB](https://pathwaytools.scinet.usda.gov/MBVKRB5C/organism-summary).
 
 ### `foldseek/` & `protein_structures/` — Structural Bioinformatic Outputs
 Contains predicted 3D protein structures generated using AlphaFold2 (ColabFold v1.5.5) and tertiary fold comparison alignments generated using Foldseek.
@@ -103,10 +103,10 @@ Manual curation of MBVKRB5Ccyc v1.0 successfully bridged severe sequence diverge
 | **Network Gap Fraction** | 27.4% (31 holes / 113 rxns) | 23.3% (30 holes / 129 rxns) | -4.1% net gap reduction |
 | **Cytosolic Chokepoint Targets** | 117 | 139 | +22 drug targets (+18.8%) |
 
-### Key Biological Discoveries Supported by the Repository Data
+### Key Biological Findings Supported by the Repository Data
 
-1. **L-Ascorbate Catabolism (*ula* Operon & PWY0-301)**:
-   Structural modeling assigned a putative L-ascorbate-6-phosphate lactonase role (UlaG; TM-score 0.82) to the generic organophosphate diesterase homolog Opd (R6879_000741). This completes an eight-gene *ula* operon cluster (R6879_000734–R6879_000741) driving group translocation and catabolism of host L-ascorbate into lower glycolysis via a phosphoketolase shunt, yielding 3 ATP per molecule.
+1. **Alternative Carbon Shunts (Ascorbate & Glycerol Shunts)**:
+   Manual curation identified key alternative carbon shunts—including both **ascorbate shunts** and **glycerol shunts**—that circumvent standard metabolic gaps in *M. bovis*. Structural modeling assigned a putative L-ascorbate-6-phosphate lactonase role (UlaG; TM-score 0.82) to the generic organophosphate diesterase homolog Opd (R6879_000741). This completes an eight-gene *ula* operon cluster (R6879_000734–R6879_000741) driving group translocation and catabolism of host L-ascorbate into lower glycolysis via a phosphoketolase shunt, yielding 3 ATP per molecule. Glycerol shunts similarly feed host-derived glycerol into central carbon metabolism and H₂O₂ redox networks. Both shunt pathways can be directly queried in the hosted SCINet database via the [Shunt Substring Search](https://pathwaytools.scinet.usda.gov/MBVKRB5C/substring-search?type=NIL&object=shunt&quickSearch=Quick+Search).
 
 2. **Programmed Translational Speed-Bumps in *opd***:
    Genomic surveillance across 119 closed genomes revealed 17 polymorphic wobble codons concentrated in *opd*. Synonymous substitutions in cosmopolitan Clade 2 lineages reduce the tRNA Adaptation Index (tAI sum drops from 12.99 to 10.00) and induce thermodynamic mRNA stabilization ($\Delta\Delta G = -2.0$ kcal/mol). This enforces co-translational ribosomal pauses that give the polypeptide time to fold its TIM-barrel domain under host-induced thermal and oxidative stress. Codon 186 (CAC $\rightarrow$ CAT) functions dual-role as both a speed-bump hotspot and an active-site metal-coordinating histidine.
@@ -121,9 +121,11 @@ Manual curation of MBVKRB5Ccyc v1.0 successfully bridged severe sequence diverge
 
 ## 4. Web Database Access
 
-The fully interactive Tier 2 curated database is publicly hosted on the USDA SCINet Pathway Tools server:
+Both the manually curated database and the automated baseline uncurated database are publicly hosted on the USDA SCINet Pathway Tools server:
 
-* **Interactive Web Database**: [https://pathwaytools.scinet.usda.gov/MBVKRB5C/organism-summary](https://pathwaytools.scinet.usda.gov/MBVKRB5C/organism-summary)
+* **Curated Database (MBVKRB5Ccyc v1.0)**: [https://pathwaytools.scinet.usda.gov/MBVKRB5C/organism-summary](https://pathwaytools.scinet.usda.gov/MBVKRB5C/organism-summary)
+* **Uncurated Baseline Database (MBVKRB5)**: [https://pathwaytools.scinet.usda.gov/organism-summary?object=MBVKRB5](https://pathwaytools.scinet.usda.gov/organism-summary?object=MBVKRB5)
+* **Carbon Shunts Quick Search (Ascorbate & Glycerol Shunts)**: [https://pathwaytools.scinet.usda.gov/MBVKRB5C/substring-search?type=NIL&object=shunt&quickSearch=Quick+Search](https://pathwaytools.scinet.usda.gov/MBVKRB5C/substring-search?type=NIL&object=shunt&quickSearch=Quick+Search)
 * **Host Platform**: Pathway Tools v29.5 hosted on USDA SCINet infrastructure (administered by USDA-ARS USMARC and Iowa State University).
 
 ---
